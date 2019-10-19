@@ -34,6 +34,7 @@ public class SortedArrayToBst extends Tree{
 		Tree root = new Tree();
 		SortedArrayToBst obj = new SortedArrayToBst();
 		obj.convertSortedArrayToBst(arr,root,arr.length);
+		System.out.println(root.heightOfTree(root));
 	}
 
 }

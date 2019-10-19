@@ -4,12 +4,23 @@
 
 package tree;
 
+import com.sun.javafx.iio.common.RoughScaler;
+
 public class Tree {
 	protected int data;
 	protected Tree left;
 	protected Tree right;
 
 	protected void createNewNode(int data) {
+		this.data = data;
+		this.left = null;
+		this.right = null;
+	}
+
+	Tree(){
+		
+	}
+	Tree(int data) {
 		this.data = data;
 		this.left = null;
 		this.right = null;
@@ -43,5 +54,13 @@ public class Tree {
 		preOrder(root.left);
 		preOrder(root.right);
 		System.out.print(root.data + " ");
+	}
+
+	protected int heightOfTree(Tree root) {
+		if (root == null)
+			return 0;
+		int leftHeight = heightOfTree(root.left);
+		int rigtHeight = heightOfTree(root.right);
+		return leftHeight > rigtHeight ? leftHeight + 1 : rigtHeight + 1;
 	}
 }
