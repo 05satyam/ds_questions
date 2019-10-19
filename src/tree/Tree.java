@@ -17,9 +17,10 @@ public class Tree {
 		this.right = null;
 	}
 
-	Tree(){
-		
+	Tree() {
+
 	}
+
 	Tree(int data) {
 		this.data = data;
 		this.left = null;
@@ -62,5 +63,17 @@ public class Tree {
 		int leftHeight = heightOfTree(root.left);
 		int rigtHeight = heightOfTree(root.right);
 		return leftHeight > rigtHeight ? leftHeight + 1 : rigtHeight + 1;
+	}
+
+	protected int diameterOfTree(Tree root) {
+		if (root == null)
+			return 0;
+		int lheight = heightOfTree(root.left);
+		int rheight = heightOfTree(root.right);
+
+		int ldiameter = diameterOfTree(root.left);
+		int rdiameter = diameterOfTree(root.right);
+
+		return Math.max(lheight + rheight + 1, Math.max(ldiameter, rdiameter));
 	}
 }
