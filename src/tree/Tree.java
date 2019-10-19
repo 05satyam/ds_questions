@@ -1,3 +1,7 @@
+/**
+ * this is the base class of tree and consist of all the common utilities
+ * **/
+
 package tree;
 
 public class Tree {
