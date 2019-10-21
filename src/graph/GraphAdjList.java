@@ -11,7 +11,7 @@ import java.util.LinkedList;
 
 public class GraphAdjList {
 	static class Graph{
-		int v;
+		protected int v;
 		LinkedList<Integer> adjArray[];
 		
 		Graph(int v) {
@@ -19,6 +19,14 @@ public class GraphAdjList {
 			adjArray = new LinkedList[v];
 			for (int i = 0; i < v; i++)
 				adjArray[i] = new LinkedList<>();
+		}
+
+		public int getV() {
+			return v;
+		}
+
+		public void setV(int v) {
+			this.v = v;
 		}
 		
 	}
