@@ -1,6 +1,7 @@
 package graph;
 
 import java.util.Iterator;
+import java.util.LinkedList;
 
 public class GraphTraversal extends GraphAdjList {
 
@@ -21,6 +22,29 @@ public class GraphTraversal extends GraphAdjList {
 		}
 	}
 
+	protected void bfs(Graph g,int s) {
+		boolean visited[] = new boolean[g.v]; 
+		  
+        LinkedList<Integer> queue = new LinkedList<Integer>(); 
+        visited[s]=true; 
+        queue.add(s); 
+  
+        while (queue.size() != 0) 
+        { 
+            s = queue.poll(); 
+            System.out.print(s+" "); 
+            Iterator<Integer> i = g.adjArray[s].listIterator(); 
+            while (i.hasNext()) 
+            { 
+                int n = i.next(); 
+                if (!visited[n]) 
+                { 
+                    visited[n] = true; 
+                    queue.add(n); 
+                } 
+            } 
+        }
+	}
 	public static void main(String[] args) {
 		GraphTraversal gTvs = new GraphTraversal();
 		GraphAdjList gAdj = new GraphAdjList();
@@ -31,7 +55,11 @@ public class GraphTraversal extends GraphAdjList {
 		gAdj.addEdge(g, 2, 0);
 		gAdj.addEdge(g, 2, 3);
 		gAdj.addEdge(g, 3, 3);
+		System.out.println("DFS:"); 
 		gTvs.dfs(g, 2);
+		System.out.println();
+		System.out.println("BFS:");
+		gTvs.bfs(g, 2);
 	}
 
 }
