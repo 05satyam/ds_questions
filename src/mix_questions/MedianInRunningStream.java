@@ -5,6 +5,8 @@
  * we will have the root at every point of array and we can take the root and find median.
  * 
  * Median is the middle of sorted array element. If array is of odd length and middle element is median else media will be average of two middle elements 
+ * 
+ * Time Complexity: O(n Log n)  Auxiliary Space : O(n)
  * */
 package mix_questions;
 
