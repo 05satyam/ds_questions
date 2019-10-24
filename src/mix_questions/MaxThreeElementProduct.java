@@ -18,6 +18,12 @@
  * 
  * 
  * 
+ * SAMPLE:
+ * 
+ * 
+ *  7
+	580386 433232 43193 917170 219977 349897 701880 
+ * 
  * **/
 
 
@@ -31,8 +37,8 @@ import java.util.*;
 public class MaxThreeElementProduct {
 
 	public static void solve(int n, int[] input) {
-		PriorityQueue<Integer> pQ = new PriorityQueue<Integer>(Collections.reverseOrder());
-		int l1 = 0, l2 = 0, l3 = 0;
+		PriorityQueue<Long> pQ = new PriorityQueue<Long>(Collections.reverseOrder());
+		long l1 = 0, l2 = 0, l3 = 0;
 		if (n > 2) {
 			l1 = input[0];
 			l2 = input[1];
@@ -49,7 +55,7 @@ public class MaxThreeElementProduct {
 			} else if (i == 2) {
 				System.out.println((l1 * l2 * l3));
 			} else {
-				int x = input[i];
+				long x = input[i];
 				pQ.add(x);
 				l1 = pQ.remove();
 				l2 = pQ.remove();
