@@ -19,7 +19,7 @@ import java.util.List;
 
 public class Combination1 {
 
-	public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
+	public static List<List<Integer>> combinationSum(int[] candidates, int target) {
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
 		List<Integer> curr = new ArrayList<Integer>();
 		Arrays.sort(candidates);
@@ -49,7 +49,7 @@ public class Combination1 {
 
 	public static void main(String[] args) {
 		int arr[] = new int[] { 10, 1, 2, 7, 6, 1, 5 };
-		System.out.println(combinationSum2(arr, 8).toString());
+		System.out.println(combinationSum(arr, 8).toString());
 	}
 
 }
