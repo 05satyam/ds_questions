@@ -3,12 +3,13 @@
  * Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
 	Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
  * */
-
+//
 package leetcode;
 
 public class RemoveDuplicate {
-
-	 public int removeDuplicates(int[] nums) {
+	//returning index number upto which array will be now unique as swapping is done in same array so all unique elemnts will be shifted from and to index  (0-(i-1))	
+	//max 2 times a number can repeat 
+	public int removeDuplicates(int[] nums) {
 	        if(nums==null){
 	        return 0;
 	    }
