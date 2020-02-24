@@ -32,7 +32,7 @@ public class GraphTraversal extends GraphAdjList {
         while (queue.size() != 0) 
         { 
             s = queue.poll(); 
-            System.out.print(s+" "); 
+            System.out.print(s+" "+g.adjArray[s].listIterator()); 
             Iterator<Integer> i = g.adjArray[s].listIterator(); 
             while (i.hasNext()) 
             { 
@@ -48,11 +48,11 @@ public class GraphTraversal extends GraphAdjList {
 	public static void main(String[] args) {
 		GraphTraversal gTvs = new GraphTraversal();
 		GraphAdjList gAdj = new GraphAdjList();
-		Graph g = new Graph(4);
-		gAdj.addEdge(g, 0, 1);
-		gAdj.addEdge(g, 0, 2);
+		Graph g = new Graph(9);
+		gAdj.addEdge(g,8, 1);
+		gAdj.addEdge(g, 8, 2);
 		gAdj.addEdge(g, 1, 2);
-		gAdj.addEdge(g, 2, 0);
+		gAdj.addEdge(g, 2, 8);
 		gAdj.addEdge(g, 2, 3);
 		gAdj.addEdge(g, 3, 3);
 		System.out.println("DFS:"); 
