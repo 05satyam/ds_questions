@@ -9,6 +9,7 @@
 
 package mix_questions;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LargestCakePieceCount {
@@ -21,6 +22,7 @@ public class LargestCakePieceCount {
 	private int countPieceCake(int arr[][]) {
 		int count = 0;
 		boolean visited[][] = new boolean[ROW][COL];
+		Arrays.fill(visited, false);
 		for (int i = 0; i < ROW; i++)
 			for (int j = 0; j < COL; j++) {
 				if (isPossibleMove(i, j, visited, arr)) {
