@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/SumOfUniqueElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ValidBoomerang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,20 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.SumOfUniqueElements">
-    <configuration name="CountMatchesInTournament" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.CountMatchesInTournament" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidBoomerang">
     <configuration name="SumOfDigitsKBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.SumOfDigitsKBase" />
       <module name="ds" />
@@ -99,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidBoomerang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidBoomerang" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exception_practice_set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.exception_practice_set" />
       <module name="ds" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidBoomerang" />
         <item itemvalue="Application.SumOfUniqueElements" />
         <item itemvalue="Application.SumOfDigitsKBase" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.exception_practice_set" />
-        <item itemvalue="Application.CountMatchesInTournament" />
       </list>
     </recent_temporary>
   </component>
