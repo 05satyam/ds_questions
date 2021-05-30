@@ -20,12 +20,13 @@ Explanation: Choose the triplet (2, 7, 8), Alice Pick the pile with 8 coins, you
 Choose the triplet (1, 2, 4), Alice Pick the pile with 4 coins, you the pile with 2 coins and Bob the last one.
 The maximum number of coins which you can have are: 7 + 2 = 9.
 On the other hand if we choose this arrangement (1, 2, 8), (2, 4, 7) you only get 2 + 4 = 6 coins which is not optimal.
-* */
+*/
 package leetcode;
 
 import java.util.Arrays;
 
 public class MaximumNumberOfCoins {
+    //Solution1
     public static int maxCoins(int[] piles) {
         Arrays.sort(piles);
         int end=piles.length-1;
