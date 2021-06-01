@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/FizBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CheckIfOneStringBreakOther.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +46,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.IncrementalMemoryLeak">
+  <component name="RunManager" selected="Application.CheckIfOneStringBreakOther">
     <configuration name="AirthmeticSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AirthmeticSubArrays" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIfOneStringBreakOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.CheckIfOneStringBreakOther" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -99,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNodesWithEvenValuedGranParents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.SumOfNodesWithEvenValuedGranParents" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfOneStringBreakOther" />
         <item itemvalue="Application.IncrementalMemoryLeak" />
         <item itemvalue="Application.MaximumNumberOfCoins" />
         <item itemvalue="Application.AirthmeticSubArrays" />
         <item itemvalue="Application.FindUserActiveMinute" />
-        <item itemvalue="Application.SumOfNodesWithEvenValuedGranParents" />
       </list>
     </recent_temporary>
   </component>
