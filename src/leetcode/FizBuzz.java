@@ -35,6 +35,7 @@ public class FizBuzz {
                 res.add("Buzz");
                 continue;
             }
+            res.add(String.valueOf(i));
         }
         return res;
     }
