@@ -31,4 +31,20 @@ public class CountSortedVowelString {
         return a + e + i + o + u;
 
     }
+
+
+    //SOLUTION 2:
+    public int countVowelStrings2(int n) {
+        // create a dp array of size 6
+        int [] dp = new int [6];
+        // dp[0] must be 0 and the rest 1
+        for (int i=1; i<dp.length; i++)
+            dp[i] = 1;
+        for (int i=1; i<=n; i++) {
+            for (int k=1; k<=5; k++) {
+                dp[k] += dp[k-1];
+            }
+        }
+        return dp[5];
+    }
 }
