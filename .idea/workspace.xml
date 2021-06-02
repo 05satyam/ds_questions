@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion" />
+    <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Base7.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.CheckIfOneStringBreakOther">
+  <component name="RunManager" selected="Application.Base7">
     <configuration name="AirthmeticSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AirthmeticSubArrays" />
       <module name="ds" />
@@ -57,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfOneStringBreakOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.CheckIfOneStringBreakOther" />
+    <configuration name="Base7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Base7" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindUserActiveMinute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FindUserActiveMinute" />
+    <configuration name="CheckIfOneStringBreakOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.CheckIfOneStringBreakOther" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Base7" />
         <item itemvalue="Application.CheckIfOneStringBreakOther" />
         <item itemvalue="Application.IncrementalMemoryLeak" />
         <item itemvalue="Application.MaximumNumberOfCoins" />
         <item itemvalue="Application.AirthmeticSubArrays" />
-        <item itemvalue="Application.FindUserActiveMinute" />
       </list>
     </recent_temporary>
   </component>
