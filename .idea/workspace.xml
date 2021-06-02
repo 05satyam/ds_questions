@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ReverseVowelInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mix_questions/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.ReverseVowelInString">
+  <component name="RunManager" selected="Application.CustomEncryptionWithCustomException">
     <configuration name="Base7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Base7" />
       <module name="ds" />
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementalMemoryLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.IncrementalMemoryLeak" />
+    <configuration name="CustomEncryptionWithCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.CustomEncryptionWithCustomException" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="mix_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNumberOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MaximumNumberOfCoins" />
+    <configuration name="IncrementalMemoryLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IncrementalMemoryLeak" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomEncryptionWithCustomException" />
         <item itemvalue="Application.ReverseVowelInString" />
         <item itemvalue="Application.Base7" />
         <item itemvalue="Application.CheckIfOneStringBreakOther" />
         <item itemvalue="Application.IncrementalMemoryLeak" />
-        <item itemvalue="Application.MaximumNumberOfCoins" />
       </list>
     </recent_temporary>
   </component>
