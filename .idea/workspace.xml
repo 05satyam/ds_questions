@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/AllPathFromSourceToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.CustomEncryptionWithCustomException">
+  <component name="RunManager" selected="Application.AllPathFromSourceToTarget">
+    <configuration name="AllPathFromSourceToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.AllPathFromSourceToTarget" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Base7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Base7" />
       <module name="ds" />
@@ -85,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementalMemoryLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.IncrementalMemoryLeak" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseVowelInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ReverseVowelInString" />
       <module name="ds" />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllPathFromSourceToTarget" />
         <item itemvalue="Application.CustomEncryptionWithCustomException" />
         <item itemvalue="Application.ReverseVowelInString" />
         <item itemvalue="Application.Base7" />
         <item itemvalue="Application.CheckIfOneStringBreakOther" />
-        <item itemvalue="Application.IncrementalMemoryLeak" />
       </list>
     </recent_temporary>
   </component>
