@@ -7,7 +7,7 @@
  *
  * Input: nums = [3,2,1]
  * Output: 1
- * Explanation: The third maximum is 1.
+ * Explanation: The third maximum is 1
  */
 package leetcode;
 
