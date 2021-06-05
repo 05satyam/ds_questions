@@ -20,6 +20,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MinimumNumberOfStepsToMakeTwoStringAnagram {
+
+    //SOLUTION 1
     public static int minSteps(String s, String t) {
         HashMap<Character, Integer> map = new HashMap<>();
         int step=0;
@@ -39,6 +41,23 @@ public class MinimumNumberOfStepsToMakeTwoStringAnagram {
 
         return step;
     }
+
+    //SOLUTION 2:
+    public static void minStep2(String s, String t){
+        int[] count = new int[26];
+        int no = 0;
+
+        for(char c : s.toCharArray()) count[c - 'a']++;
+
+        for(char b : t.toCharArray()) count[b - 'a']--;
+
+        for(int i=0; i<26; i++) {
+            if(count[i] > 0)
+                no += count[i];
+        }
+        return no;
+    }
+
     public static void main(String[] a){
         System.out.println(minSteps("leetcode" ,"practice"));
     }
