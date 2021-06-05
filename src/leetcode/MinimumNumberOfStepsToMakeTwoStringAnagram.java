@@ -43,7 +43,7 @@ public class MinimumNumberOfStepsToMakeTwoStringAnagram {
     }
 
     //SOLUTION 2:
-    public static void minStep2(String s, String t){
+    public static int minStep2(String s, String t){
         int[] count = new int[26];
         int no = 0;
 
