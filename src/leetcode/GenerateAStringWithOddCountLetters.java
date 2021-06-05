@@ -13,6 +13,8 @@
  */
 package leetcode;
 
+import java.util.Arrays;
+
 public class GenerateAStringWithOddCountLetters {
     public String generateTheString(int n) {
         String res = "";
@@ -25,5 +27,13 @@ public class GenerateAStringWithOddCountLetters {
             res+='a';
 
         return res;
+    }
+
+    //SOLUTION 2
+    public String generateTheString2(int n) {
+        Character[] result = new Character[n];
+        Arrays.fill(result, 'a');
+        if (n % 2 == 0) result[0] = 'b';
+        return String.valueOf(result);
     }
 }
