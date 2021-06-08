@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion" />
+    <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/CheckIfArrayIsSortedAndRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/CheckIfArrayIsSortedAndRotated.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,9 +49,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.SearchInABinarySearchTree">
-    <configuration name="LongParsedName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LongParsedName" />
+  <component name="RunManager" selected="Application.CheckIfArrayIsSortedAndRotated">
+    <configuration name="CheckIfArrayIsSortedAndRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.CheckIfArrayIsSortedAndRotated" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfArrayIsSortedAndRotated" />
         <item itemvalue="Application.SearchInABinarySearchTree" />
         <item itemvalue="Application.MinimumNumberOfStepsToMakeTwoStringAnagram" />
         <item itemvalue="Application.MinimumOperationsToMakeArrayEqual" />
         <item itemvalue="Application.QueriesOnNumberOfPointsInsideCircle" />
-        <item itemvalue="Application.LongParsedName" />
       </list>
     </recent_temporary>
   </component>
