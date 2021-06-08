@@ -13,7 +13,27 @@
 package leetcode;
 
 public class CanPlaceFlower {
-    public boolean canPlaceFlowers(int[] flowerbed, int n) {
-    return false;
+    //Solution1
+    public static boolean canPlaceFlowers(int[] flowerbed, int n) {
+        for(int i=0; i<flowerbed.length; i++) {
+            int pre = i-1 < 0 ? 0 : flowerbed[i-1];
+            int post = i+1 >= flowerbed.length ? 0 : flowerbed[i+1];
+            int curr = flowerbed[i];
+            if(pre == 0 && post == 0 && curr == 0) {
+                flowerbed[i] = 1;
+                n--;
+            }
+        }
+        return n > 0 ? false : true;
+    }
+    public static void main(String[] a){
+        int arr[]= new int[6];
+        arr[0]=1;
+        arr[1]=0;
+        arr[2]=0;
+        arr[3]=0;
+        arr[4]=0;
+        arr[5]=1;
+        System.out.println(canPlaceFlowers(arr, 2));
     }
 }
