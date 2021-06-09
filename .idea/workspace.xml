@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/CanPlaceFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/CanPlaceFlower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlower">
+  <component name="RunManager" selected="Application.ArrangeCoins">
+    <configuration name="ArrangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ArrangeCoins" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CanPlaceFlower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.CanPlaceFlower" />
       <module name="ds" />
@@ -89,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumOperationsToMakeArrayEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MinimumOperationsToMakeArrayEqual" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchInABinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.SearchInABinarySearchTree" />
       <module name="ds" />
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrangeCoins" />
         <item itemvalue="Application.CanPlaceFlower" />
         <item itemvalue="Application.CheckIfArrayIsSortedAndRotated" />
         <item itemvalue="Application.SearchInABinarySearchTree" />
         <item itemvalue="Application.MinimumNumberOfStepsToMakeTwoStringAnagram" />
-        <item itemvalue="Application.MinimumOperationsToMakeArrayEqual" />
       </list>
     </recent_temporary>
   </component>
