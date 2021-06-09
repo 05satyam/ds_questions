@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 public class FindCenterOfGraph {
+    //SOLUTION:1
     public static int findCenter(int[][] graph) {
         Map<Integer, Integer> nodeCount = new HashMap<>();
         for(int i=0;i<graph.length;i++){
@@ -45,6 +46,15 @@ public class FindCenterOfGraph {
         }
         return 0;
     }
+
+    //SOLUTION :2
+
+    public int findCenter1(int[][] edges) {
+        int x = edges[0][0], y = edges[0][1];
+        return (y == edges[1][0] || y == edges[1][1]) ? y : x;
+    }
+
+
     public static void main(String[] a){
         int g[][] = {{1,2},{2,3},{4,2}};
         System.out.println(findCenter(g));
