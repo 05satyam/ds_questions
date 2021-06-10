@@ -20,6 +20,7 @@
 package leetcode;
 
 public class FindAGivenMatrixWithGIvenRowSumAndColSum {
+    //SOLUTION  1
     public static int[][] restoreMatrix(int[] rowSum, int[] colSum) {
         int rLen = rowSum.length;
         int cLen = colSum.length;
