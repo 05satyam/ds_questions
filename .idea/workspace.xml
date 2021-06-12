@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/AllElementsInTwoBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/EncodeDecodeTinyUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/EncodeDecodeTinyUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.DeepestLeavesSumTree">
+  <component name="RunManager" selected="Application.AllElementsInTwoBinarySearchTree">
+    <configuration name="AllElementsInTwoBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.AllElementsInTwoBinarySearchTree" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeepestLeavesSumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.DeepestLeavesSumTree" />
       <module name="ds" />
@@ -89,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfDifferentIntegersInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.NumberOfDifferentIntegersInString" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.PalindromLinkedList" />
       <module name="ds" />
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllElementsInTwoBinarySearchTree" />
         <item itemvalue="Application.DeepestLeavesSumTree" />
         <item itemvalue="Application.MinimizeMaxPairSumInArray" />
         <item itemvalue="Application.PalindromLinkedList" />
         <item itemvalue="Application.FindAGivenMatrixWithGIvenRowSumAndColSum" />
-        <item itemvalue="Application.NumberOfDifferentIntegersInString" />
       </list>
     </recent_temporary>
   </component>
