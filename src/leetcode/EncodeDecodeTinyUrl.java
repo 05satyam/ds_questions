@@ -37,4 +37,25 @@ public class EncodeDecodeTinyUrl {
     public String decode(String shortUrl) {
         return urlToIdxMap.get(shortUrl);
     }
+
+
+
+    //solution2
+
+    int val=0;
+    Map<String, String> urlToIdxMap1 = new HashMap<>();
+    public String encode1(String longUrl) {
+        char[] urlChar = longUrl.toCharArray();
+
+        String uuid = "http://tinyurl.com/" + val++;
+        urlToIdxMap1.put(uuid , longUrl);
+
+        return uuid;
+    }
+
+    public String decode1(String shortUrl) {
+        return urlToIdxMap1.get(shortUrl);
+    }
+
+
 }
