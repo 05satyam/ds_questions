@@ -11,7 +11,7 @@
  * Output: [2,3]
  */
 
-ackage leetcode;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
