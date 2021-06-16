@@ -13,10 +13,7 @@
 
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class FindAllDuplicatesInArray {
     public List<Integer> findDuplicates(int[] nums) {
@@ -33,6 +30,32 @@ public class FindAllDuplicatesInArray {
         for(Map.Entry<Integer, Integer> kv : frequncyMap.entrySet()){
             if(kv.getValue()==2)
                 res.add(kv.getKey());
+        }
+        return res;
+    }
+
+    //SOlution 2
+    public List<Integer> findDuplicates1(int[] nums) {
+        Arrays.sort(nums);
+        List<Integer> res = new ArrayList<>();
+        Map<Integer, Integer> frequncyMap = new HashMap<>();
+        int a=nums[0];
+        int count=1;
+        for(int i=1;i<nums.length;i++) {
+            if (nums[i] == a) {
+                count++;
+                if(count==2){
+                    res.add(nums[i]);
+                    count=1;
+                }
+            } else {
+                if (count == 2) {
+                    res.add(nums[i - 1]);
+
+                }
+                count = 1;
+                a = nums[i];
+            }
         }
         return res;
     }
