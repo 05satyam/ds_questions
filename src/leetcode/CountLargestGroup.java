@@ -44,6 +44,35 @@ public class CountLargestGroup {
         return count;
     }
 
+    //SOlutionn2
+
+    public static int countLargestSum2(int n){
+        int[] ar=new int[37];
+        int sum=0;
+        for(int i=1;i<=n;i++){
+            int d=i;
+            while(d!=0){
+                sum+=d%10;
+                d=d/10;
+            }
+            ar[sum]++;
+            sum=0;
+        }
+        int max=0;
+        for(int i=0;i<37;i++){
+            if(ar[i]>max){
+                max=ar[i];
+            }
+        }
+        int count=0;
+        for(int i=0;i<37;i++){
+            if(ar[i]==max){
+                count++;
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] a){
         System.out.println(countLargestGroup(13));
     }
