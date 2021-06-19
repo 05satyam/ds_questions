@@ -13,4 +13,11 @@ public class RotateString {
     public String getRoatateString(String s, int i){
         return  s.substring(i)+ s.substring(0,i);
     }
+
+    //SOLUTION 2
+    public boolean rotateString2(String A, String B) {
+
+        return(A.length() == B.length() && (A + A).contains(B));
+
+    }
 }
