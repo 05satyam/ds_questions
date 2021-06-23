@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LinkedListCycyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/NumberOfSegementInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,22 +49,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.MostCommonWord">
+  <component name="RunManager" selected="Application.NumberOfSegementInString">
     <configuration name="BottomLeftValueTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BottomLeftValueTree" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountGoodNodesInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.CountGoodNodesInBinaryTree" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -103,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberOfSegementInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.NumberOfSegementInString" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReplaceWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ReplaceWord" />
       <module name="ds" />
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfSegementInString" />
         <item itemvalue="Application.MostCommonWord" />
         <item itemvalue="Application.BottomLeftValueTree" />
         <item itemvalue="Application.ReplaceWord" />
         <item itemvalue="Application.CountLargestGroup" />
-        <item itemvalue="Application.CountGoodNodesInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
