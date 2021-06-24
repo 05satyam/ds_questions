@@ -80,6 +80,17 @@ public class FirstUniqueCharacterInString {
         return -1;
     }
 
+    //SOLUTION 3:
+
+    public int firstUniqChar3(String s) {
+
+        int freq[] = new int[26];
+        for(char i: s.toCharArray()) freq[i-'a']++;
+        for(int i = 0; i < s.length(); i++) if(freq[s.charAt(i)-'a'] == 1) return i;
+        return -1;
+
+    }
+
 
     public static void main(String[] a){
         System.out.println(firstUniqChar("aabb"));
