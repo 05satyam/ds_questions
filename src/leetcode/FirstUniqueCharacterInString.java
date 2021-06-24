@@ -67,6 +67,20 @@ public class FirstUniqueCharacterInString {
         return minIdx==Integer.MAX_VALUE? -1: minIdx;
     }
 
+
+
+    //SOLUTION 2:
+    public int firstUniqChar2(String s) {
+        for(char c : s.toCharArray()){
+            int index = s.indexOf(c);
+            int lastIndex = s.lastIndexOf(c);
+            if(index == lastIndex)
+                return index;
+        }
+        return -1;
+    }
+
+
     public static void main(String[] a){
         System.out.println(firstUniqChar("aabb"));
     }
