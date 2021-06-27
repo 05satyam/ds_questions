@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change beforePath="$PROJECT_DIR$/src/leetcode/AddTwoBinaryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/AddTwoBinaryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.AddTwoBinaryString">
+  <component name="RunManager" selected="Application.HappyNumber">
     <configuration name="AddTwoBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoBinaryString" />
       <module name="ds" />
@@ -62,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BottomLeftValueTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.BottomLeftValueTree" />
+    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.FirstUniqueCharacterInString" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FirstUniqueCharacterInString" />
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.HappyNumber" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.AddTwoBinaryString" />
         <item itemvalue="Application.FirstUniqueCharacterInString" />
         <item itemvalue="Application.NumberOfSegementInString" />
         <item itemvalue="Application.MostCommonWord" />
-        <item itemvalue="Application.BottomLeftValueTree" />
       </list>
     </recent_temporary>
   </component>
