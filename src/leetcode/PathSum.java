@@ -17,8 +17,9 @@ public class PathSum {
     }
 
     boolean pathSum(TreeNode root, int targerSum, int sum){
-        if(root==null)
+        if(root==null) {
             return false;
+        }
         sum+=root.val;
         if(root.right==null && root.left==null){
             if(targerSum==sum)
