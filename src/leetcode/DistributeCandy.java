@@ -28,4 +28,21 @@ public class DistributeCandy {
 
         return len<set.size()? len: set.size();
     }
+
+    //solution2
+
+
+    public int distributeCandies2(int[] candyType) {
+        final Set<Integer> types = new HashSet<>(candyType.length / 2);
+
+        for (int type : candyType) {
+            types.add(type);
+
+            if (candyType.length / 2 <= types.size()) {
+                return candyType.length / 2;
+            }
+        }
+
+        return types.size();
+    }
 }
