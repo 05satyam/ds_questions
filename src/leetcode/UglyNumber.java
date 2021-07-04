@@ -35,6 +35,15 @@ public class UglyNumber {
         return false;
     }
 
+
+    // solution 2
+    public boolean isUgly2(int num) {
+        for (int i=2; i<6 && num>0; i++)
+            while (num % i == 0)
+                num /= i;
+        return num == 1;
+    }
+
     public static void main(String[] a){
         System.out.println(isUgly(14));
     }
