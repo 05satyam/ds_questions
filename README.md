@@ -1,6 +1,6 @@
 # ds_questions
 
-It is a collection of ds questions consisting of very low level to high level. 
+It is a collection of data structure and algorithms questions consisting of very low level to high level. 
 
      Questions are majorly from my personal interviews or leetcode or codechef or geekesforgeeks 
 
