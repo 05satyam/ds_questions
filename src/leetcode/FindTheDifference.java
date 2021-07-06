@@ -34,4 +34,18 @@ public class FindTheDifference {
 
         return ch!=' '? ch : t1[t1.length-1];
     }
+
+
+    //solution 2
+    public char findTheDifference2(String s, String t) {
+        char sum_s = 'a';
+        char sum_t = 'a';
+        int i = 0;
+        for (; i < s.length(); i++) {
+            sum_s += s.charAt(i);
+            sum_t += t.charAt(i);
+        }
+        sum_t += t.charAt(i);
+        return (char) (sum_t - sum_s);
+    }
 }
