@@ -13,4 +13,18 @@ public class SumOfLeftLeaves {
         sum += sumOfLeftLeaves(root.right);
         return sum;
     }
+
+    //solution2
+    public int sumOfLeftLeaves2(TreeNode root) {
+        return sumOfLefts(root, false);
+    }
+
+    private int sumOfLefts(TreeNode node, boolean leftChild) {
+        if(node == null)
+            return 0;
+        if(leftChild && node.left == null && node.right == null)
+            return node.val;
+        else
+            return sumOfLefts(node.left, true) + sumOfLefts(node.right, false);
+    }
 }
