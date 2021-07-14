@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/SumOfLeftLeaves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
