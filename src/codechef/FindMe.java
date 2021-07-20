@@ -1,4 +1,5 @@
 /**
+ * First question of codechef
  *
  * You are given a list of N integers and a value K. Print 1 if K exists in the given list of N integers, otherwise print −1.
  *
