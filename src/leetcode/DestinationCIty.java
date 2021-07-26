@@ -2,8 +2,6 @@
  * destination city
  *
  *
- *
- *
  */
 package leetcode;
 
