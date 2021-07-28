@@ -37,6 +37,26 @@ public class TriImplementation {
         pCrawl.isEndOfWord = true;
     }
 
+    static boolean search(String key)
+    {
+        int level;
+        int length = key.length();
+        int index;
+        TrieNode pCrawl = root;
+
+        for (level = 0; level < length; level++)
+        {
+            index = key.charAt(level) - 'a';
+
+            if (pCrawl.children[index] == null)
+                return false;
+
+            pCrawl = pCrawl.children[index];
+        }
+
+        return (pCrawl.isEndOfWord);
+    }
+
     public static void main(String[] a){
         String keys[] = {"the", "a", "there", "answer", "any",
                 "by", "bye", "their"};
