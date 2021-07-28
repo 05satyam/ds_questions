@@ -1,3 +1,6 @@
+/**
+ * this is tri basic implementation and source code from geeks for geeks
+ */
 package mix_questions;
 
 public class TriImplementation {
