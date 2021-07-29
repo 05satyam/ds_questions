@@ -8,8 +8,6 @@ public class TriImplementation {
     static class TrieNode {
         TrieNode[] children = new TrieNode[ALPHABET_SIZE];
 
-        // isEndOfWord is true if the node represents
-        // end of a word
         boolean isEndOfWord;
 
         TrieNode(){
