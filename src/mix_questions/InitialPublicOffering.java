@@ -71,4 +71,9 @@ public class InitialPublicOffering {
     }
 
 }
-}
+/**
+ *
+ *https://stackoverflow.com/questions/65830333/very-confused-with-sql-queries
+ *
+ * select BUYER_ID, sum(p.price) as TOTAL_WORTH from house h join price p using(HOUSE_ID) group by h.BUYER_ID having sum(p.price)>100 and count(*)>1;
+ */
