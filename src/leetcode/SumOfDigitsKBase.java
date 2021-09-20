@@ -10,6 +10,9 @@ Explanation: 34 (base 10) expressed in base 6 is 54. 5 + 4 = 9.
 * */
 package leetcode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class SumOfDigitsKBase {
     public static int sumBase(int n, int k) {
 
@@ -21,6 +24,10 @@ public class SumOfDigitsKBase {
         }
 
         int sumDig = reminder+(n%k);
+
+
+
+        Set<Integer> test = new HashSet<>();
         return sumBaseCalc(n/k, k, sumDig);
 
     }
