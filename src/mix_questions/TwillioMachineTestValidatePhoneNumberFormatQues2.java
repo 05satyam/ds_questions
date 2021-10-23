@@ -17,7 +17,7 @@ package mix_questions;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TwilloMachineTestValidatePhoneNumberFormatQues2 {
+public class TwillioMachineTestValidatePhoneNumberFormatQues2 {
 
     public static boolean validateLen(String address){
         return address.length()<=16;

@@ -11,7 +11,7 @@ package mix_questions;
 import java.util.*;
 import java.util.List;
 
-public class TwilloMachineTestValidateImageQues1 {
+public class TwillioMachineTestValidateImageQues1 {
     public static void main(String[] args) throws Exception {
         List<List<String>> finalRes = new ArrayList<>();
 
