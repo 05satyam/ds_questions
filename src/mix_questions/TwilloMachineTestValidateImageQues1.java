@@ -1,12 +1,13 @@
 package mix_questions;
 
-import javax.imageio.ImageIO;
+/*
+* given list of image along with size
+* there will be list of list of input
+*
+* there will be a max size for which image url size will be matched
+* if matched return ture along with image url other wise false;
+* */
 
-import java.awt.*;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.net.URL;
 import java.util.*;
 import java.util.List;
 

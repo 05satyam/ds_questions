@@ -1,3 +1,17 @@
+//given address string...validate it with some condition
+// for sms: can start with +, should not start with 0 if + present than 1st character shuld not be 0 and if + absent than 0th charzcter cant not be 0 , len shuld be less than 15 excluding +
+/* for other carrier patter of input => <provider>:<address>
+*  other carrier whatsaapp, messenger, wechat
+*
+* for whatsapp and messender sms condition shuld be followed for address
+*
+* for wechat there can be any character present but address len shuld be less than 248
+*
+* there will be these carrier only
+*
+* return provider in capital like SMS, WECHAT, WHATSAPP, MESSENGER
+* */
+
 package mix_questions;
 
 import java.util.HashSet;
