@@ -113,4 +113,106 @@ public class newtest {
     public static void main(String a[]){
 
     }
+
+
+
+    int idx=0;
+    class Bin{
+        int id;
+        Recipe recipe;
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public Recipe getRecipe() {
+            return recipe;
+        }
+
+        public void setRecipe(Recipe recipe) {
+            this.recipe = recipe;
+        }
+    }
+
+    class Recipe{
+        int id;
+        List<String> ingredients;
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public List<String> getIngredients() {
+            return ingredients;
+        }
+
+        public void setIngredients(List<String> ingredients) {
+            this.ingredients = ingredients;
+        }
+
+        public Recipe(int id, List<String> ingredients) {
+            this.id = id;
+            this.ingredients = ingredients;
+        }
+    }
+
+
+    public void addRemoveRecipe(String action, List<String> ingredient, Bin[] b){
+            createCompound( ingredient,  b, action);
+    }
+
+    public void createCompound(List<String> ingredient, Bin[] b, String action){
+        String givenIng = "";
+        for(String s : ingredient){
+            givenIng = givenIng + "_"+ s.toLowerCase();
+        }
+        for(int i=0;i<b.length;i++) {
+            Recipe r = b[i].recipe;
+            String ingredientList = "";
+            for (String s : r.getIngredients()) {
+                ingredientList = ingredientList + "_" + s.toLowerCase();
+            }
+
+            if(givenIng.equalsIgnoreCase(ingredientList)){
+                if(action.equalsIgnoreCase("remove")){
+                    b[i]=null;
+                }
+                return;
+            }
+
+            else{
+                Bin bb = new Bin();
+                bb.setRecipe(new Recipe(1, ingredient));
+                b[idx] = bb;
+                return;
+            }
+        }
+
+    }
+
+    public void outputCompound(int bindId, Bin[] b){
+        for(int i=0;i<b.length;i++){
+            if(b[i].getId()==bindId)
+                print(b[i]);
+            return;
+        }
+    }
+    public void print(Bin b){
+       System.out.println(b.getId());
+       Recipe r = b.getRecipe();
+       for(int i=0;i<r.getIngredients().size();i++){
+           System.out.print(r.getIngredients().get(i));
+       }
+        System.out.println();
+    }
+
 }
+

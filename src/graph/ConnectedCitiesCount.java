@@ -6,20 +6,8 @@ You are given an n x n matrix isConnected where isConnected[i][j] = 1 if the ith
 
 package graph;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class ConnectedCitiesCount {
-//['1100', '1110', '0110', '0001']
     public static int connectedCityCount(int[][] g) {
-        List<String> list = Arrays.asList("1110", "1010", "1011", "1110");
-        int[][] array = new int[list.size()][list.get(0).length()];
-        for (int i = 0; i < list.size(); i++) {
-            for (int j = 0; j < list.get(i).length(); j++) {
-                array[i][j] = list.get(i).charAt(j)-'0';
-            }
-        }
         int n = g.length;
         int count = 0;
         boolean[] visited = new boolean[n];
