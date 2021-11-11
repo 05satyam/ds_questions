@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/IsSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/InputStrConcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MinSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/OddOccurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/SortAccordingToBouncingDiag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.AllFullBinaryTrees">
+  <component name="RunManager" selected="Application.SortAccordingToBouncingDiag">
     <configuration name="AllFullBinaryTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AllFullBinaryTrees" />
       <module name="ds" />
@@ -63,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindOccuranceOfWordInSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.FindOccuranceOfWordInSequence" />
+    <configuration name="OneLampLightenedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.OneLampLightenedPoint" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -76,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneLampLightenedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.OneLampLightenedPoint" />
+    <configuration name="SortAccordingToBouncingDiag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.SortAccordingToBouncingDiag" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mix_questions.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortAccordingToBouncingDiag" />
         <item itemvalue="Application.TwillioMachineTestValidateImageQues1" />
         <item itemvalue="Application.TwillioMachineTestValidatePhoneNumberFormatQues2" />
         <item itemvalue="Application.AllFullBinaryTrees" />
         <item itemvalue="Application.OneLampLightenedPoint" />
-        <item itemvalue="Application.FindOccuranceOfWordInSequence" />
       </list>
     </recent_temporary>
   </component>
