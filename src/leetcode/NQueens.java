@@ -1,5 +1,9 @@
 package leetcode;
 
+import java.util.Arrays;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+
 public class NQueens {
      static final int nQueen = 4;
 
@@ -50,6 +54,10 @@ public class NQueens {
      }
 
      public static void main(String[] a){
+         String[] y = {"1", "2", "15", "-7"};
+         Arrays.sort(y);
+         System.out.println(y[0] + "   " + y[1]);
+
          int grid[][] = { { 0, 0, 0, 0 },
                  { 0, 0, 0, 0 },
                  { 0, 0, 0, 0 },
@@ -61,7 +69,10 @@ public class NQueens {
 
          printSolution(grid);
      }
+
+
+
+
 }
 
-
-//The worst-case time complexity is O ( N! ).
+ 
