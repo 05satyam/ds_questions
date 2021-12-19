@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="print fibonacii recursion">
-      <change afterPath="$PROJECT_DIR$/src/mix_questions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mix_questions/UserSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mix_questions/CountSubStringInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mix_questions/GetPeakRemovedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mix_questions/NumLimitFIndPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/NQueens.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.Main" />
+  <component name="RunManager" selected="Application.GetPeakRemovedArray">
+    <configuration name="CountSubStringInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.CountSubStringInString" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +65,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MinSwap" />
+    <configuration name="GetPeakRemovedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.GetPeakRemovedArray" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="mix_questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.Main" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mix_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestWordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ShortestWordDistance" />
+    <configuration name="NumLimitFIndPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.NumLimitFIndPairs" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortAccordingToBouncingDiag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.SortAccordingToBouncingDiag" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="mix_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetPeakRemovedArray" />
+        <item itemvalue="Application.NumLimitFIndPairs" />
+        <item itemvalue="Application.CountSubStringInString" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.ShortestWordDistance" />
-        <item itemvalue="Application.MinSwap" />
-        <item itemvalue="Application.SortAccordingToBouncingDiag" />
       </list>
     </recent_temporary>
   </component>
