@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/TicTakToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/google/CloneNArrayTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/google/MaximumTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640931758810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="google leetcode questions">
+      <created>1640933302039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640933302039</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
