@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/CloneNArrayTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/MaximumTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/BestTimeToBuySellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/PaintHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/google/GoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/google/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/MaximumTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/google/MaximumTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.TicTakToe">
+  <component name="RunManager" selected="Application.GoogleTest">
     <configuration name="BuildObstacle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mix_questions.BuildObstacle" />
       <module name="ds" />
@@ -77,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPeakRemovedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.GetPeakRemovedArray" />
+    <configuration name="GoogleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.google.GoogleTest" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mix_questions.*" />
+          <option name="PATTERN" value="leetcode.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsAlternatingCharacterVowelConsonent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.IsAlternatingCharacterVowelConsonent" />
+    <configuration name="PaintHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PaintHouse" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mix_questions.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleTest" />
+        <item itemvalue="Application.PaintHouse" />
         <item itemvalue="Application.TicTakToe" />
         <item itemvalue="Application.BuildObstacle" />
         <item itemvalue="Application.CountNumberOfSubstringDivisibleBy3" />
-        <item itemvalue="Application.IsAlternatingCharacterVowelConsonent" />
-        <item itemvalue="Application.GetPeakRemovedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640933302039</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="google leetcode questions">
+      <created>1641199798692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641199798692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
