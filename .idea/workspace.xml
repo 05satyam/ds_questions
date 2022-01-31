@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/CountElemetsWithStrictlySmallerGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/FindLonelyNUmber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/RearrageElemetsBySIgn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DeleteAndEarn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +49,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.RearrageElemetsBySIgn">
-    <configuration name="BuildObstacle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.BuildObstacle" />
+  <component name="RunManager" selected="Application.DeleteAndEarn">
+    <configuration name="DeleteAndEarn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.DeleteAndEarn" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mix_questions.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteAndEarn" />
         <item itemvalue="Application.RearrageElemetsBySIgn" />
         <item itemvalue="Application.GoogleTest" />
         <item itemvalue="Application.PaintHouse" />
         <item itemvalue="Application.TicTakToe" />
-        <item itemvalue="Application.BuildObstacle" />
       </list>
     </recent_temporary>
   </component>
