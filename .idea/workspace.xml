@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/BestTimeToBuySellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/PaintHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/GoogleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/google/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/CountElemetsWithStrictlySmallerGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/FindLonelyNUmber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/RearrageElemetsBySIgn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/google/MaximumTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/google/MaximumTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +51,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.GoogleTest">
+  <component name="RunManager" selected="Application.RearrageElemetsBySIgn">
     <configuration name="BuildObstacle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mix_questions.BuildObstacle" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mix_questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountNumberOfSubstringDivisibleBy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mix_questions.CountNumberOfSubstringDivisibleBy3" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -106,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RearrageElemetsBySIgn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RearrageElemetsBySIgn" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicTakToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.google.TicTakToe" />
       <module name="ds" />
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RearrageElemetsBySIgn" />
         <item itemvalue="Application.GoogleTest" />
         <item itemvalue="Application.PaintHouse" />
         <item itemvalue="Application.TicTakToe" />
         <item itemvalue="Application.BuildObstacle" />
-        <item itemvalue="Application.CountNumberOfSubstringDivisibleBy3" />
       </list>
     </recent_temporary>
   </component>
