@@ -99,6 +99,6 @@ public class GoogleTest {
     }
 
     public static void main(String[] s){
-        System.out.println(longestConsistentString("ca"));
+        System.out.println(longestConsistentString("abcabc"));
     }
 }
