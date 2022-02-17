@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/FirstAndLastPositionOfElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/NextArrayPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/google/GoogleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/JumpGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.GoogleTest">
+  <component name="RunManager" selected="Application.JumpGame">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AddTwoNumbers" />
       <module name="ds" />
@@ -91,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.JumpGame" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubstringWithoutRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubstringWithoutRepeatingCharacter" />
       <module name="ds" />
@@ -104,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrageElemetsBySIgn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.RearrageElemetsBySIgn" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.GoogleTest" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.DeleteAndEarn" />
-        <item itemvalue="Application.RearrageElemetsBySIgn" />
       </list>
     </recent_temporary>
   </component>

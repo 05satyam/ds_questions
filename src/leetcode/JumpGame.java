@@ -29,9 +29,20 @@ public class JumpGame {
 	        } 
 	        return jumps[n - 1]!=Integer.MAX_VALUE?true:false; 
 	    }
+
+    public static boolean canJump1(int[] arr) {
+        if(arr.length==1 && arr[0]==0)return true;
+        int reach=0;
+        for(int i=0;i<arr.length;i++){
+            if(i>reach) return  false;
+
+            reach= Math.max(reach, i+arr[i]);
+        }
+        return true;
+    }
 	public static void main(String[] args) {
-		int arr[] = new int[] { 2,3,1,1,4 };
-		System.out.println(canJump(arr));
+		int arr[] = new int[] {2,0,0};
+		System.out.println(canJump1(arr));
 	}
 
 }
