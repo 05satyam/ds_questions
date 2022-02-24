@@ -44,6 +44,40 @@ public class UglyNumber {
         return num == 1;
     }
 
+
+    /*
+    *
+    *  get Nth ugly number
+    *
+    * Input: n = 10
+Output: 12
+Explanation: [1, 2, 3, 4, 5, 6, 8, 9, 10, 12] is the sequence of the first 10 ugly numbers.
+    *
+    * */
+    public int getNthUglyNumber(int n){
+
+        int i=0,j=0,k=0;
+        int dp[] = new int[n];
+            dp[0]=1;
+        int factor2 = 2, factor3 = 3, factor5 = 5;
+
+        for(int ii=1;ii<n;ii++){
+            int min = Math.min(Math.min(factor2, factor3), factor5);
+            dp[ii]=min;
+            if(min==factor2){
+                factor2= 2* dp[++i];
+
+            }
+            if(min==factor3)
+                factor3 = 3* dp[++j];
+            if(min==factor5)
+                factor5 = 5* dp[++k];
+        }
+
+        return dp[n-1];
+
+    }
+
     public static void main(String[] a){
         System.out.println(isUgly(14));
     }
