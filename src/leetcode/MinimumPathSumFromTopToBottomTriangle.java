@@ -31,23 +31,16 @@ public class MinimumPathSumFromTopToBottomTriangle {
                 for(int j=0;j<triangle.get(i).size();j++){
 
                     int num = triangle.get(i).get(j);
-                    System.out.println("num  "+ num);
                     int x=Integer.MAX_VALUE,y=Integer.MAX_VALUE;
                     if(j-1>=0 && j-1 <=triangle.get(i-1).size()){
-                        System.out.print("inside  ");
                         x = num+triangle.get(i-1).get(j-1);
-                        System.out.println("x "+ x);
                     }
 
                     if(j>=0 && j<triangle.get(i-1).size()){
-                        System.out.print("inside    ");
                         y = num + triangle.get(i-1).get(j);
-                        System.out.println(" y " + y);
                     }
 
-                    System.out.println("j  "+ j +    "  i   "+ i);
                     if(x<=y) {
-
                         triangle.get(i).set(j, x);
                     }
                     else {
@@ -55,33 +48,20 @@ public class MinimumPathSumFromTopToBottomTriangle {
                     }
                 }
 
-
-                System.out.println(" after each iteration ");
-                for(int num: triangle.get(i)){
-
-                    System.out.print(num + "  ");
-                }
-                System.out.println();
-
             }
+
             for(int num: triangle.get(triangle.size()-1)){
-                System.out.print (" num: " + num + "     ");
                 if(num<=minSum)
                     minSum=num;
             }
             return minSum;
-
-
     }
+
     public static void main(String[] a){
         List<List<Integer>> list = new ArrayList<>();
 
-
         List<Integer> list1 = new ArrayList<>();
         list1.add(2);
-
-
-
 
         List<Integer> list2 = new ArrayList<>();
         list2.add(3);
@@ -97,7 +77,6 @@ public class MinimumPathSumFromTopToBottomTriangle {
         list4.add(1);
         list4.add(8);
         list4.add(3);
-
 
         list.add(list1);
         list.add(list2);
