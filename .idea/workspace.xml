@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/MinimumDifferenceBetweenLargestAndMinimumElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/NumberOfWaysToSplitIntoGoodString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MinimumDominoRotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,20 +54,7 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfWaysToSplitIntoGoodString">
-    <configuration name="FindAllNumbersDisappearedInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.FindAllNumbersDisappearedInArray" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumDominoRotation">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.GroupAnagrams" />
       <module name="ds" />
@@ -84,6 +70,19 @@
     </configuration>
     <configuration name="LargestNumberAsTwiceOfOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.LargestNumberAsTwiceOfOther" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumDominoRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MinimumDominoRotation" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumDominoRotation" />
         <item itemvalue="Application.NumberOfWaysToSplitIntoGoodString" />
         <item itemvalue="Application.MinimumPathSumFromTopToBottomTriangle" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.LargestNumberAsTwiceOfOther" />
-        <item itemvalue="Application.FindAllNumbersDisappearedInArray" />
       </list>
     </recent_temporary>
   </component>
