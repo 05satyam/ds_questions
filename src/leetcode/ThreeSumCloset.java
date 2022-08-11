@@ -24,7 +24,6 @@ public class ThreeSumCloset {
         }
         Arrays.sort(nums);
         int closet = Integer.MAX_VALUE;
-        int finalCloset = Integer.MAX_VALUE;
         for(int i=0;i<=nums.length-3;i++){
             int start=i+1;
             int end=nums.length-1;
