@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ThreeSumCloset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ThreeSumCloset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestSubstringWithAtMost2UnqueCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumDominoRotation">
+  <component name="RunManager" selected="Application.LongestSubstringWithAtMost2UnqueCharacter">
     <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.GroupAnagrams" />
       <module name="ds" />
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberAsTwiceOfOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LargestNumberAsTwiceOfOther" />
+    <configuration name="LongestSubstringWithAtMost2UnqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubstringWithAtMost2UnqueCharacter" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithAtMost2UnqueCharacter" />
         <item itemvalue="Application.MinimumDominoRotation" />
         <item itemvalue="Application.NumberOfWaysToSplitIntoGoodString" />
         <item itemvalue="Application.MinimumPathSumFromTopToBottomTriangle" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.LargestNumberAsTwiceOfOther" />
       </list>
     </recent_temporary>
   </component>
