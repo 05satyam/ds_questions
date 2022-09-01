@@ -29,7 +29,7 @@ package leetcode;
 public class RemoveNthNodeFromEndOfList {
     //solution1 - not efficient
 
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+    public ListNode removeNthFromEnd1(ListNode head, int n) {
         int listLen=0;
         ListNode newHead = head;
 
@@ -60,6 +60,19 @@ public class RemoveNthNodeFromEndOfList {
             newHead.next=newHead.next.next;
             System.out.println(newHead.val);
         }
+        return head;
+    }
+
+    //solution2 efficint
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        ListNode fast = head, slow = head;
+        for (int i = 0; i < n; i++) fast = fast.next;
+        if (fast == null) return head.next;
+        while (fast.next != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+        slow.next = slow.next.next;
         return head;
     }
 }
