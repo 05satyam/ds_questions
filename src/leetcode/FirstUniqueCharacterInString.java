@@ -15,7 +15,7 @@ package leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-class Pair<S, I extends Number> {
+class Pair<Integer, I extends Number> {
     int key;
     int value;
 
@@ -42,14 +42,14 @@ class Pair<S, I extends Number> {
 }
 public class FirstUniqueCharacterInString {
     public static int firstUniqChar(String s) {
-        Map<Character, Pair<S, Number>> map = new HashMap<>();
+        Map<Character, Pair<Integer, Number>> map = new HashMap<>();
 
         for(int i=0; i<s.length();i++){
             if(map.containsKey(s.charAt(i))){
-                Pair<S, Number> subMap = map.get(s.charAt(i));
-                map.put(s.charAt(i), new Pair<S, Number>(subMap.getKey(), subMap.getValue()+1));
+                Pair<Integer, Number> subMap = map.get(s.charAt(i));
+                map.put(s.charAt(i), new Pair<Integer, Number>(subMap.getKey(), subMap.getValue()+1));
             }else{
-                map.put(s.charAt(i), new Pair<S, Number>(i, 1));
+                map.put(s.charAt(i), new Pair<Integer, Number>(i, 1));
             }
 
             System.out.println("map "+ map.get(s.charAt(i)).getKey() + "   " +   map.get(s.charAt(i)).getValue());
@@ -57,8 +57,8 @@ public class FirstUniqueCharacterInString {
 
         int minIdx = Integer.MAX_VALUE;
         int freq=-1;
-        for(Map.Entry<Character, Pair<S, Number>> pair: map.entrySet()){
-           Pair<S, Number> pairVal = pair.getValue();
+        for(Map.Entry<Character, Pair<Integer, Number>> pair: map.entrySet()){
+           Pair<Integer, Number> pairVal = pair.getValue();
            System.out.println("pair   " + pairVal.getKey() + "   " + pairVal.getValue());
            if(pairVal.getValue()==1 && pairVal.getKey()<minIdx)
                minIdx=pairVal.getKey();
