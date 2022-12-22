@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ValidPalindrom1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/IsSymetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/WordSearchInGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mix_questions/DiagonalTraversalOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/FirstUniqueCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/FirstUniqueCharacterInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrom1">
+  <component name="RunManager" selected="Application.IsSymetric">
     <configuration name="DivideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.DivideTwoIntegers" />
       <module name="ds" />
@@ -84,21 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithAtMost2UnqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LongestSubstringWithAtMost2UnqueCharacter" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumDominoRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MinimumDominoRotation" />
+    <configuration name="IsSymetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IsSymetric" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordSearchInGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.WordSearchInGrid" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSymetric" />
+        <item itemvalue="Application.WordSearchInGrid" />
         <item itemvalue="Application.ValidPalindrom1" />
         <item itemvalue="Application.FindAllAnagramInString" />
         <item itemvalue="Application.DivideTwoIntegers" />
-        <item itemvalue="Application.LongestSubstringWithAtMost2UnqueCharacter" />
-        <item itemvalue="Application.MinimumDominoRotation" />
       </list>
     </recent_temporary>
   </component>
