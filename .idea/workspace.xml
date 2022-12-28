@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/IsSymetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/WordSearchInGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mix_questions/DiagonalTraversalOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mix_questions/JustWorkAssignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +56,7 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsSymetric">
-    <configuration name="DivideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.DivideTwoIntegers" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JustWorkAssignment">
     <configuration name="FindAllAnagramInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.FindAllAnagramInString" />
       <module name="ds" />
@@ -91,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JustWorkAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mix_questions.JustWorkAssignment" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mix_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JustWorkAssignment" />
         <item itemvalue="Application.IsSymetric" />
         <item itemvalue="Application.WordSearchInGrid" />
         <item itemvalue="Application.ValidPalindrom1" />
         <item itemvalue="Application.FindAllAnagramInString" />
-        <item itemvalue="Application.DivideTwoIntegers" />
       </list>
     </recent_temporary>
   </component>
