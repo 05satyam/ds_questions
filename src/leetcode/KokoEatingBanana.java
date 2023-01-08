@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class KokoEatingBanana {
-    public int minEatingSpeed(int[] piles, int h) {
+    public static int minEatingSpeed(int[] piles, int h) {
         // Start at an eating speed of 1.
         int speed = 1;
 
