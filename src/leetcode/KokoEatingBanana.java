@@ -47,6 +47,7 @@ public class KokoEatingBanana {
         }
     }
 
+   
     public static void main(String[] a){
         int arr[] = {312884470};
         System.out.println(minEatingSpeed(arr,312884469));
