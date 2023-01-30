@@ -28,7 +28,14 @@ class ListNode {
       ListNode next;
       ListNode() {}
       ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+      ListNode(int val, ListNode next) {
+          this.val = val; this.next = next; }
+
+    ListNode createNode(int val, ListNode next) {
+        ListNode ll = new ListNode();
+        ll.val = val; ll.next = next;
+        return ll;
+    }
   }
 public class MergeInBetweenLinkedlist {
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
