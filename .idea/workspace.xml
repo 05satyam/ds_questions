@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/CompareVersionNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/RevealCardsInIncreasingOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareVersionNumber">
+  <component name="RunManager" selected="Application.RevealCardsInIncreasingOrder">
     <configuration name="BinaryTreeLevelOrderTraversal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BinaryTreeLevelOrderTraversal2" />
       <module name="ds" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MergeKSortedList" />
+    <configuration name="RevealCardsInIncreasingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RevealCardsInIncreasingOrder" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RevealCardsInIncreasingOrder" />
         <item itemvalue="Application.CompareVersionNumber" />
         <item itemvalue="Application.BinaryTreeLevelOrderTraversal2" />
         <item itemvalue="Application.LongestValidParanthesis" />
         <item itemvalue="Application.ReverseNodesInKGroup" />
-        <item itemvalue="Application.MergeKSortedList" />
       </list>
     </recent_temporary>
   </component>
