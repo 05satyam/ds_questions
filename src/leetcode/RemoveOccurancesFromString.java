@@ -32,7 +32,35 @@ public class RemoveOccurancesFromString {
         return s;
     }
 
+    //sliding window
+    public static String removeOccurrences2(String s, String part) {
+
+        int i=0,j=0;
+        if(s.equalsIgnoreCase(part))
+            return "";
+
+        if(s.length()<part.length())
+            return s;
+
+        while(i<s.length() && j<s.length()){
+            if(j-i+1< part.length()){
+                j++;
+            }else{
+                String tmp = s.substring(i,j+1);
+                if(tmp.equalsIgnoreCase(part)){
+                    s = s.substring(0,i)+ s.substring(j+1);
+                    i=0;j=0;
+                }else{
+                    i++;
+                    j++;
+                }
+            }
+        }
+        return s;
+    }
+
+
     public static void main(String[] a){
-        System.out.println(removeOccurrences("daabcbaabcbc", "abc"));
+        System.out.println(removeOccurrences2("daabcbaabcbc", "abc"));
     }
 }
