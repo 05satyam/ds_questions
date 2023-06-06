@@ -53,7 +53,7 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveOccurancesFromString">
+  <component name="RunManager" selected="Application.DailyTemp">
     <configuration name="AstroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.AstroidCollision" />
       <module name="ds" />
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.NextPermutation" />
+    <configuration name="DailyTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.DailyTemp" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DailyTemp" />
         <item itemvalue="Application.RemoveOccurancesFromString" />
         <item itemvalue="Application.ComplementOfBase10Intg" />
         <item itemvalue="Application.AstroidCollision" />
         <item itemvalue="Application.NumberOfIsland" />
-        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>
