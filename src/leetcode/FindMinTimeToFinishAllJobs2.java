@@ -31,6 +31,8 @@
  */
 package leetcode;
 
+import java.util.Arrays;
+
 public class FindMinTimeToFinishAllJobs2 {
     public int minimumTime(int[] jobs, int[] workers) {
         Arrays.sort(jobs);
