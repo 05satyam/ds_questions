@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/FindMinTimeToFinishAllJobs2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MaximumSumDistinctSubarraysLengthK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +56,9 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeIntervals">
-    <configuration name="DailyTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.DailyTemp" />
+  <component name="RunManager" selected="Application.MaximumSumDistinctSubarraysLengthK">
+    <configuration name="GetAllCombinationOfCoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.GetAllCombinationOfCoint" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllCombinationOfCoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.GetAllCombinationOfCoint" />
+    <configuration name="MaximumSumDistinctSubarraysLengthK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MaximumSumDistinctSubarraysLengthK" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSumDistinctSubarraysLengthK" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.RemovingDuplicates" />
         <item itemvalue="Application.MinTimeToMakeAllAppleRotten" />
         <item itemvalue="Application.GetAllCombinationOfCoint" />
-        <item itemvalue="Application.DailyTemp" />
       </list>
     </recent_temporary>
   </component>
@@ -212,5 +212,10 @@
     <MESSAGE value="Decompress RunLength Encoded List- leetcode" />
     <MESSAGE value="google leetcode questions" />
     <option name="LAST_COMMIT_MESSAGE" value="google leetcode questions" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ds$MaximumSumDistinctSubarraysLengthK.ic" NAME="MaximumSumDistinctSubarraysLengthK Coverage Results" MODIFIED="1695084798650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.*</FILTER>
+    </SUITE>
   </component>
 </project>
