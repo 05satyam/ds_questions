@@ -38,6 +38,8 @@ import java.util.Set;
  * Domain names end with the ".com" suffix.
  */
 
+//Time Complexity: O(N⋅M)O(N \cdot M)O(N⋅M)
+//Space Complexity: O(N⋅M)O(N \cdot M)O(N⋅M)
 class UniqueEmailAddress {
     public int numUniqueEmails(String[] emails) {
         int n = emails.length;
