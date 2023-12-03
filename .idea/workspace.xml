@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff093793-823c-4be9-8bc2-586f76e6dd67" name="Default Changelist" comment="google leetcode questions">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/MinNumberOfKeyPress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudyDotComTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/huffman_code/Huffman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +57,13 @@
       <recent name="leetcode.google" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumSumDistinctSubarraysLengthK">
-    <configuration name="GetAllCombinationOfCoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.GetAllCombinationOfCoint" />
+  <component name="RunManager" selected="Application.Huffman_Tree">
+    <configuration name="Huffman_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffman_code.Huffman_Tree" />
       <module name="ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="huffman_code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinTimeToMakeAllAppleRotten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MinTimeToMakeAllAppleRotten" />
-      <module name="ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemovingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.RemovingDuplicates" />
       <module name="ds" />
@@ -122,13 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyDotComTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudyDotComTest" />
+      <module name="ds" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Huffman_Tree" />
+        <item itemvalue="Application.StudyDotComTest" />
         <item itemvalue="Application.MaximumSumDistinctSubarraysLengthK" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.RemovingDuplicates" />
-        <item itemvalue="Application.MinTimeToMakeAllAppleRotten" />
-        <item itemvalue="Application.GetAllCombinationOfCoint" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +207,22 @@
     <MESSAGE value="Decompress RunLength Encoded List- leetcode" />
     <MESSAGE value="google leetcode questions" />
     <option name="LAST_COMMIT_MESSAGE" value="google leetcode questions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StudyDotComTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StudyDotComTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ds$MaximumSumDistinctSubarraysLengthK.ic" NAME="MaximumSumDistinctSubarraysLengthK Coverage Results" MODIFIED="1695084798650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
