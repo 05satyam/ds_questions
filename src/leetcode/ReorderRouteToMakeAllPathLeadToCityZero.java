@@ -35,6 +35,9 @@ package leetcode;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ReorderRouteToMakeAllPathLeadToCityZero {
     public int minReorder(int n, int[][] connections) {
         List<List<Integer>> lst = new ArrayList<>();
@@ -48,7 +51,7 @@ public class ReorderRouteToMakeAllPathLeadToCityZero {
         return dfs(lst, new boolean[n], 0);
     }
 
-    public int dfs( List<List<Integer>> lst, boolean[] vis, int node){
+    public int dfs(List<List<Integer>> lst, boolean[] vis, int node){
         int c = 0;
         vis[node]=true;
         for(Integer ii : lst.get(node)){

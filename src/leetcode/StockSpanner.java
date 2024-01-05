@@ -36,6 +36,8 @@
  */
 package leetcode;
 
+import java.util.Stack;
+
 class StockSpanner {
     // List<Integer> lst=null;
     // public StockSpanner() {
